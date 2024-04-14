@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Form to visit</title>
+<link rel="stylesheet" href="visit_form_css.css">
+<link rel="icon" href="logo-cyS8wn1YR-transformed.png">
+</head>
+<body>
+  <h2>Please Fill the Form to visit tigray </h2>
+  <form action="#" method="post">
+    <label for="full_name">Full Name:</label><br>
+    <input type="text" id="full_name" name="full_name" required><br>
+    <label for="purpose">Place to Visit:</label><br>
+    <select id="purpose" name="purpose" required>
+      <option value="tourism">Axum </option>
+      <option value="cultural_interest">Debredamo</option>
+      <option value="research">Gheralta</option>
+      <option value="education">wukro cherkos</option>
+      <option value="education">Mariam dengelat </option>
+      <option value="education">gunda gundo Monastry</option>
+      <option value="tourism">mariam korkor </option>
+      <option value="tourism">mikael Amba </option>
+      <option value="tourism">yeha </option>
+      <option value="tourism">Abreha we Atsbeha </option>
+    </select><br>
+
+    <label for="nationality">Nationality:</label><br>
+    <input type="text" id="nationality" name="nationality" required><br>
+
+    <label for="passport">Passport/ID Number:</label><br>
+    <input type="text" id="passport" name="passport" required><br>
+
+    <label for="phone">Phone:</label><br>
+    <input type="tel" id="phone" name="phone" required><br>
+
+    <label for="email">Email:</label><br>
+    <input type="email" id="email" name="email" required><br>
+
+    <label for="street">Street Address:</label><br>
+    <input type="text" id="street" name="street" required><br>
+
+    <label for="city">City:</label><br>
+    <input type="text" id="city" name="city" required><br>
+
+    <label for="state">State/Province:</label><br>
+    <input type="text" id="state" name="state" required><br>
+
+    <label for="postal">Postal Code:</label><br>
+    <input type="text" id="postal" name="postal" required><br>
+
+    <label for="country">Country:</label><br>
+    <input type="text" id="country" name="country" required><br>
+
+    <label for="date">Date of Visit:</label><br>
+    <input type="date" id="date" name="date" required><br>
+
+    <label for="card_number">Card Number:</label><br>
+    <input type="text" id="card_number" name="card_number" required><br>
+
+    <label for="expiry_date">Expiry Date:</label><br>
+    <input type="text" id="expiry_date" name="expiry_date" placeholder="MM/YYYY" required><br>
+
+    <label for="payment_amount">Payment Amount:</label><br>
+    <input type="number" id="payment_amount" name="payment_amount" min="0" required><br>
+
+    <label for="currency">Currency:</label><br>
+    <select id="currency" name="currency" required>
+        <option value="USD">Birr</option>
+      <option value="USD">USD</option>
+      <option value="EUR">EUR</option>
+      <option value="GBP">GBP</option>
+      <option value="JPY">JPY</option>
+    </select><br>
+    <label for="accessibility">Accessibility Requirements:</label><br>
+    <input type="text" id="accessibility" name="accessibility"><br>
+
+    <label for="tour_preference">Guided Tour Preference:</label><br>
+    <input type="radio" id="guided" name="tour_preference" value="guided" checked>
+    <label for="guided">Guided Tour</label><br>
+    <input type="radio" id="self_guided" name="tour_preference" value="self_guided">
+    <label for="self_guided">Self-guided Exploration</label><br>
+     
+    <input type="submit" value="Submit">
+    <input type="reset" value="reset">
+  </form>
+</body>
+</html>
