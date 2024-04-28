@@ -7,34 +7,114 @@
         <meta http-equiv="refresh" content="10000">
         <link rel="stylesheet" href="visit_tigray.css">
         <link rel="icon" href="logo-cyS8wn1YR-transformed.png">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <style>
+            .my-button{ width: 140px;
+    height: 30px;
+    padding-left: 40px;
+    margin-left: 230px;
+    border: none;
+    background: rgba(255, 217, 0, 0.877);
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 40px;
+margin-top: -20px;
+
+}
+#nms{
+   
+   text-align: center;
+   margin-top: 50px;
+
+}
+#mybutton{
+    width: 120px;
+    height: 44px;
+    float: left;
+    border: 2px solid gold;
+    border-left: none;
+    color: rgb(51, 50, 47);
+    font-size: 20px;
+    font-family: 'Times New Roman';
+    background: rgba(255, 217, 0, 0.753);
+    border-radius: 10px;
+}
+
+.my-button a{
+    text-decoration: none;
+    color: rgb(10, 10, 10);
+}
+.my-button:hover{
+    background-color:rgba(255, 217, 0, 0.726);
+}
+.content span{
+    color: goldenrod;
+    font-size: 30px;
+}
+            .nav-item{
+    list-style: none;
+    margin-top: 10px;
+    margin-left: 60px;
+}
+.nav-link{
+    text-decoration: none;
+    color: rgb(10, 10, 10);
+    font-size: 25px;
+    font-family:  'Times New Roman';
+
+
+}
+.sear{
+    width: 330px;
+    margin-left: 200px;
+    float: left;
+margin-top: 25px;
+border-radius: 20px;
+}
+   
+        </style>
     </head>
     <body>
-        <div class="main">
+        <div class="container-fluid">
             <div class="navbar">
-            <div class="logo">
-             <img id="imagelogo" src="logo-cyS8wn1YR-transformed.png" width="150px">
-            </div>
-            <div class="nav">
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="visit.html">Visit</a></li>
-                    <li><a href="form2.html">Book
-                    </a></li>
-                    <li><a href="aboutus.html">About</a></li>
+                <div class="row justify-content-center align-items-center">
+                <div class="col-auto">
+             <img class="img-fluid rounded shadow imagelogo" src="logo-cyS8wn1YR-transformed.png" width="150px">
+                </div>
+                </div>
+
+
+                <div class="col-auto" id="col1">
+                    <nav class="navbar navbar-expand-lg ">
+                        <div class="collapse navbar-collapse">
+                     
+          
+                 <ul class="navbar-nav mr-auto" id="ulnavbar">
+                   
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="visit.html">Visit</a></li>
+                    <li class="nav-item"><a class="nav-link" href="form2.html">Book</a></li>
+                    <li class="nav-item"><a class="nav-link" href="aboutus.html">About</a></li>
                 </ul>
-            </div>
-            <div class="search">
-                <input id="guess" type="text" placeholder="search places to visit">
-               <a href=" "> <button id="btn">search</button></a>
-            </div>
-        </div>
+                 </div>
+                 </nav>
+                 </div>
+                 
+  
+            <div class="col-auto" id="sear" >
+                <form class="form-inline" >
+                    <input id="guess" class="form-control mr-sm-2" type="search" placeholder="search places to visit" aria-label="Search">
+                    <button id="mybutton" class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                  </form> 
+                 </div>
         <div class="content">
-            <h1 id="head1">Visit tigray land of orgins</h1>
-            <p class="par" id="hun"> Tigray, situated in northern Ethiopia, is renowned for its wealth of religious and cultural sites.<br> It's home to ancient churches, monasteries, and offering visitors a glimpse into world's <br>rich history and spiritual heritage. tigray is a captivating destination for those interested<br> in exploring religious and cultural roots of the world.</p>
-            <button class="btns"><a id="nms" href="visit.html">Visit Now</a></button>
+            <h1 class="display-4 mb-4 head1">Visit tigray land of orgins</h1>
+            <p class="lead mb-5 par"> Tigray, situated in northern Ethiopia, is renowned for its wealth of religious and cultural sites.<br> It's home to ancient churches, monasteries, and offering visitors a glimpse into world's <br>rich history and spiritual heritage. tigray is a captivating destination for those interested<br> in exploring religious and cultural roots of the world.</p>
+            <button type="button"  class="btn btn-primary my-button"><a id="nms" href="visit.html">Visit Now</a></button>
        
         </div>
         </div>
+
 
     </body>
 </html>
